@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const port=progress.argv[2] || 3000
+const port=process.argv[2] || 3000
 
 const www= express.static(`${__dirname}/www`)
 app.use(www)
